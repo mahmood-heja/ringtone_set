@@ -29,70 +29,72 @@ class _MyAppState extends State<MyApp> {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Plugin example app'),
-        ),
-        body: Builder(builder: (context) {
-          return Center(
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.spaceAround,
-              children: <Widget>[
-                FlatButton(
-                    onPressed: () async {
-                      String result;
-                      try {
-                        result = await RingtoneSet.setRingtone("assets/h1.mp3");
-                      } on PlatformException {
-                        result = 'Error';
-                      }
-                      var snackbar = SnackBar(content: Text("$result"));
-                      Scaffold.of(context).showSnackBar(snackbar);
-                    },
-                    child: Text("Hey Ringtone")),
-                FlatButton(
-                    onPressed: () async {
-                      String result;
-                      try {
-                        result = await RingtoneSet.setNotification("assets/h1.mp3");
-                      } on PlatformException {
-                        result = 'Error';
-                      }
-                      var snackbar = SnackBar(content: Text("$result"));
-                      Scaffold.of(context).showSnackBar(snackbar);
-                    },
-                    child: Text("Hey Notification")),
-                FlatButton(
-                    onPressed: () async {
-                      String result;
-                      try {
-                        result = await RingtoneSet.setRingtone("assets/untitled.mp3");
-                      } on PlatformException {
-                        result = 'Error';
-                      }
-                      var snackbar = SnackBar(content: Text("$result"));
-                      Scaffold.of(context).showSnackBar(snackbar);
-                    },
-                    child: Text("Untitled Ringtone")),
-                FlatButton(
-                    onPressed: () async {
-                      String result;
-                      try {
-                        result =
-                            await RingtoneSet.setNotification("assets/untitled.mp3");
-                      } on PlatformException {
-                        result = 'Error';
-                      }
-                      var snackbar = SnackBar(content: Text("$result"));
-                      Scaffold.of(context).showSnackBar(snackbar);
-                    },
-                    child: Text("Untitled Notification")),
-              ],
-            ),
-          );
-        }),
-      ),
-    );
+    // return MaterialApp(
+    //   home: Scaffold(
+    //     appBar: AppBar(
+    //       title: const Text('Plugin example app'),
+    //     ),
+    //     body: Builder(builder: (context) {
+    //       return Center(
+    //         child: Column(
+    //           mainAxisAlignment: MainAxisAlignment.spaceAround,
+    //           children: <Widget>[
+    //             FlatButton(
+    //                 onPressed: () async {
+    //                   String result;
+    //                   try {
+    //                     result = await RingtoneSet.setRingtone("assets/h1.mp3");
+    //                   } on PlatformException {
+    //                     result = 'Error';
+    //                   }
+    //                   var snackbar = SnackBar(content: Text("$result"));
+    //                   Scaffold.of(context).showSnackBar(snackbar);
+    //                 },
+    //                 child: Text("Hey Ringtone")),
+    //             FlatButton(
+    //                 onPressed: () async {
+    //                   String result;
+    //                   try {
+    //                     result = await RingtoneSet.setNotification("assets/h1.mp3");
+    //                   } on PlatformException {
+    //                     result = 'Error';
+    //                   }
+    //                   var snackbar = SnackBar(content: Text("$result"));
+    //                   Scaffold.of(context).showSnackBar(snackbar);
+    //                 },
+    //                 child: Text("Hey Notification")),
+    //             FlatButton(
+    //                 onPressed: () async {
+    //                   String result;
+    //                   try {
+    //                     result = await RingtoneSet.setRingtone("assets/untitled.mp3");
+    //                   } on PlatformException {
+    //                     result = 'Error';
+    //                   }
+    //                   var snackbar = SnackBar(content: Text("$result"));
+    //                   Scaffold.of(context).showSnackBar(snackbar);
+    //                 },
+    //                 child: Text("Untitled Ringtone")),
+    //             FlatButton(
+    //                 onPressed: () async {
+    //                   String result;
+    //                   try {
+    //                     result =
+    //                         await RingtoneSet.setNotification("assets/untitled.mp3");
+    //                   } on PlatformException {
+    //                     result = 'Error';
+    //                   }
+    //                   var snackbar = SnackBar(content: Text("$result"));
+    //                   Scaffold.of(context).showSnackBar(snackbar);
+    //                 },
+    //                 child: Text("Untitled Notification")),
+    //           ],
+    //         ),
+    //       );
+    //     }),
+    //   ),
+    // );
+
+    return MaterialApp();
   }
 }

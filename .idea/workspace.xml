@@ -3,34 +3,64 @@
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7acefe88-6bdb-4637-b98b-89560859559c" name="Default Changelist" comment="" />
+    <list default="true" id="7acefe88-6bdb-4637-b98b-89560859559c" name="Default Changelist" comment="- support null-safety">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "mahmood-heja"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/mahmood-heja/ringtone_set.git",
+    "accountId": "40a9a6c9-7a88-48ec-920a-926ec60cb004"
+  }
+}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
   <component name="ProjectId" id="1fUjs4kSnnPRpdRpKyavqAptSlz" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="android.sdk.path" value="D:/Android" />
-    <property name="dart.analysis.tool.window.force.activate" value="false" />
-    <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="SDK Location" />
-    <property name="project.structure.proportion" value="0.17" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="show.migrate.to.gradle.popup" value="false" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/flutter/custom_package/ringtone_set",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -91,25 +121,32 @@
       <option name="project" value="LOCAL" />
       <updated>1620314236482</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="- support null-safety">
+      <created>1692578316682</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1692578316682</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="- create addRingtoneFromFile method" />
     <MESSAGE value="- update mime detect" />
     <MESSAGE value="- update pub" />
-    <option name="LAST_COMMIT_MESSAGE" value="- update pub" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="347" y="0" key="CommitChangelistDialog2" timestamp="1620314235542">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="347" y="0" key="CommitChangelistDialog2/0.0.1536.864/1920.0.1360.768@0.0.1536.864" timestamp="1620314235542" />
-    <state x="2227" y="0" key="CommitChangelistDialog2/0.0.1536.864/1920.0.1360.768@1920.0.1360.768" timestamp="1617211712579" />
-    <state x="307" y="132" key="Vcs.Push.Dialog.v2" timestamp="1620314239380">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="307" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1360.768@0.0.1536.864" timestamp="1620314239380" />
-    <state x="2192" y="117" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1360.768@1920.0.1360.768" timestamp="1617211717083" />
+    <MESSAGE value="- support null-safety" />
+    <option name="LAST_COMMIT_MESSAGE" value="- support null-safety" />
   </component>
 </project>
